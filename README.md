@@ -1,4 +1,4 @@
-# Neural Networks Coursework
+# Neural Networks: From Scratch to CNNs
 
 Four graduate assignments that build a neural network up from a hand-written NumPy forward pass to convolutional networks in Keras. Each folder has the code, the numbers recorded for it, and a note on what those numbers do and do not show.
 
