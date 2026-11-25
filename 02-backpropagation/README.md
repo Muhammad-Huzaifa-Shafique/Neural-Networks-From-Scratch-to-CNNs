@@ -40,7 +40,7 @@ Final Average MSE Loss: 23.524591861261232
 ## Reading the curve
 
 - **A long flat start.** For roughly the first 75 epochs the loss stays at about 795.5, the variance of the targets, so the network is doing no better than predicting their mean. It then breaks out of the plateau and drops quickly (below 300 by epoch 102).
-- **One spike.** At epoch 121 the loss jumps to 753 from 244 two epochs earlier, and is back below 244 by epoch 123. That pattern is consistent with a gradient step that overshot; the loss recovers and keeps falling.
+- **One spike.** At epoch 121 the loss jumps to 753 from 244 at epoch 120 (it was 206 at epoch 119), and is back to 232 by epoch 123, below that 244. That pattern is consistent with a gradient step that overshot; the loss recovers and keeps falling.
 - **Still improving.** The loss ends at 23.5 and was still falling slowly at epoch 500.
 
 ## Limits

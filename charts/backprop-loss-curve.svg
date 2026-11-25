@@ -28,8 +28,8 @@
 <text x="80" y="128.4" font-size="11" fill="#a7b1c6" text-anchor="start" font-weight="400">flat for about</text>
 <text x="80" y="142.4" font-size="11" fill="#a7b1c6" text-anchor="start" font-weight="400">75 epochs</text>
 <circle cx="222.0" cy="117.5" r="3.5" fill="#338ced" stroke="#0e1320" stroke-width="1.5"/>
-<text x="232.0" y="137.5" font-size="11" fill="#e8edf6" text-anchor="start" font-weight="400">epoch 121: 753, up from 244 two epochs earlier</text>
-<text x="232.0" y="151.5" font-size="11" fill="#a7b1c6" text-anchor="start" font-weight="400">back below 244 by epoch 123</text>
+<text x="232.0" y="137.5" font-size="11" fill="#e8edf6" text-anchor="start" font-weight="400">epoch 121: 753, up from 244 the epoch before</text>
+<text x="232.0" y="151.5" font-size="11" fill="#a7b1c6" text-anchor="start" font-weight="400">back to 232 by epoch 123</text>
 <circle cx="692.0" cy="309.8" r="3.5" fill="#338ced" stroke="#0e1320" stroke-width="1.5"/>
 <text x="684.0" y="295.8" font-size="11" fill="#e8edf6" text-anchor="end" font-weight="400">epoch 500: 23.5</text>
 </svg>
