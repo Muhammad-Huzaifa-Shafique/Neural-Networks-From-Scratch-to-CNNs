@@ -1,0 +1,11 @@
+model,name,hidden_layers,loss,batch_size,epochs_run,val_mape_pct,test_mape_pct,test_mae_usd,kept
+1,Base model,64-32,MSE,32,50,21.22,21.33,38873,yes
+2,Wider and deeper network,128-64-32,MSE,32,50,19.16,19.25,38439,yes
+3,Mean absolute error loss,128-64-32,MAE,32,50,19.80,19.48,41142,no
+4,Log-transformed target,128-64-32,MSE,32,50,22.28,22.00,39821,no
+5,More epochs with early stopping,128-64-32,MSE,32,133,18.94,18.91,34949,yes
+6,Learning-rate reduction on plateau,128-64-32,MSE,32,200,19.41,19.57,34670,no
+7,Larger batch size,128-64-32,MSE,64,95,19.64,20.04,36498,no
+8,Dropout regularization,128-64-32,MSE,32,102,19.73,20.04,35887,no
+9,Batch normalization,128-64-32,MSE,32,42,20.27,20.39,37167,no
+10,Swish activation,128-64-32,MSE,32,196,19.53,19.61,35549,no

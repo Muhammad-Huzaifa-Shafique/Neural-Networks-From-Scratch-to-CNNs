@@ -1,0 +1,12 @@
+Epoch   1 | Average MSE Loss: 796.2023
+Epoch  50 | Average MSE Loss: 795.4632
+Epoch 100 | Average MSE Loss: 311.3017
+Epoch 150 | Average MSE Loss: 143.7912
+Epoch 200 | Average MSE Loss: 101.0182
+Epoch 250 | Average MSE Loss: 56.1638
+Epoch 300 | Average MSE Loss: 39.8508
+Epoch 350 | Average MSE Loss: 33.6587
+Epoch 400 | Average MSE Loss: 30.1493
+Epoch 450 | Average MSE Loss: 25.9849
+Epoch 500 | Average MSE Loss: 23.5246
+Final Average MSE Loss: 23.524591861261232
